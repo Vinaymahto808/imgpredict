@@ -9,8 +9,6 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.datasets import cifar10
 from sklearn.model_selection import train_test_split
-import pickle
-import os
 
 # Page config
 st.set_page_config(
